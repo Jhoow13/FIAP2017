@@ -3,4 +3,4 @@ _____________________________
 
 #Professor: Gustavo Torrente
 ##Dados
-*profgustavo.torrente@fiap.com.br
+profgustavo.torrente@fiap.com.br
