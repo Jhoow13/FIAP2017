@@ -1,0 +1,17 @@
+# Created by https://www.gitignore.io/api/node,visualstudiocode
+
+### Node ###
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# End of https://www.gitignore.io/api/node,visualstudiocode

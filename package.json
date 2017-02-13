@@ -1,0 +1,23 @@
+{
+  "name": "fiap2017",
+  "version": "1.0.0",
+  "description": "Arquivos das materias de 2017",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhoow13/FIAP2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jhoow13/FIAP2017/issues"
+  },
+  "homepage": "https://github.com/Jhoow13/FIAP2017#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}
