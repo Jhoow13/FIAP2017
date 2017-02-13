@@ -26,8 +26,8 @@
         $notaTotal = (($nac * 0.2) + ($am * 0.3) + ($ps * 0.5));
 
         
-        if($notaTotal > 6 && $faltas < $faltasPermitidas){
-            echo 'Passou miserave';
+        if($notaTotal > 6 && $faltas <= $faltasPermitidas){
+            echo '<h1>Passou miserave</h1>';
         }
 
 
