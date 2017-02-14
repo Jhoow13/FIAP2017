@@ -9,11 +9,11 @@ _____________________________
 
 ###Conteudo
 1º Semestre
-PHP
-mySQL
-Bootstrap
+- PHP
+- mySQL
+- Bootstrap
 
 2º Semestre
-nodeJS
-mongoDB
-express
+- nodeJS
+- mongoDB
+- express
