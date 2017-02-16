@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contador"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.fiap.contador.ContadorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorActivityBackgroundTop"
+        android:gravity="center"
+        android:minHeight="80dp">
+
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorActivityBackgroundBottom">
+        <Button
+            android:id="@+id/btnMenos"
+            style="@style/AppTheme.ButtonPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="calcular"
+            android:text="@string/menos"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:minHeight="80dp"/>
+        <Button
+            android:id="@+id/btnZerar"
+            style="@style/AppTheme.ButtonAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="calcular"
+            android:text="@string/zerar"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:minHeight="80dp"/>
+        <Button
+            android:id="@+id/btnMais"
+            style="@style/AppTheme.ButtonPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="calcular"
+            android:text="@string/mais"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:minHeight="80dp"/>
+    </LinearLayout>
+</LinearLayout>
+
+
