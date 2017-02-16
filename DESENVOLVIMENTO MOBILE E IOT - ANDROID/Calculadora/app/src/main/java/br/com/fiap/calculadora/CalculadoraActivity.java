@@ -11,7 +11,6 @@ public class CalculadoraActivity extends AppCompatActivity implements View.OnCli
 
     EditText numero1, numero2;
     TextView tvResultado;
-    String operacao;
     Button btnSoma, btnSubtracao, btnMultiplicacao, btnDivisao;
 
     @Override
@@ -53,5 +52,12 @@ public class CalculadoraActivity extends AppCompatActivity implements View.OnCli
             resultado = Integer.parseInt(numero1.getText().toString()) / Integer.parseInt(numero2.getText().toString());
             tvResultado.setText(String.valueOf(resultado));
         }
+    }
+
+    public void limpar(View v){
+        numero1.setText("0");
+        numero2.setText("0");
+        tvResultado.setText("0");
+
     }
 }
