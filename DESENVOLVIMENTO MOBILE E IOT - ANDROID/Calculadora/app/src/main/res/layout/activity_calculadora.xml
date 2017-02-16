@@ -80,8 +80,7 @@
         android:layout_below="@+id/btnMultiplicacao"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="53dp"
-        android:id="@+id/btnResultado"
-        android:onClick="realizarConta"/>
+        android:id="@+id/btnResultado"/>
 
     <TextView
         android:text="Resultado"
