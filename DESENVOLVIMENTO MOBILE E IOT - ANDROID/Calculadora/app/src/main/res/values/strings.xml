@@ -4,5 +4,5 @@
     <string name="subtrair">-</string>
     <string name="multiplicar">*</string>
     <string name="dividir">/</string>
-    <string name="calcular">Calcular</string>
+    <string name="limpar">Limpar</string>
 </resources>

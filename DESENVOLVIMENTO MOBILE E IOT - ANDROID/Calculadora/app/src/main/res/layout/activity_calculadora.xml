@@ -43,7 +43,8 @@
         android:id="@+id/btnSoma"
         android:layout_marginTop="41dp"
         android:layout_below="@+id/tvNumero2"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="defineOperacao"/>
 
     <Button
         android:text="@string/subtrair"
@@ -73,7 +74,7 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="@string/calcular"
+        android:text="@string/limpar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnMultiplicacao"
@@ -89,5 +90,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="50dp"
-        android:id="@+id/tvResultado"/>
+        android:id="@+id/tvResultado"
+        android:gravity="center"/>
 </RelativeLayout>
