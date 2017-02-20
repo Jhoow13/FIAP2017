@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="desafio07.css">
+</head>
+<body class="texto">
+    <div class="container">
+        <h1 class="texto-centro">Desafio 07</h1>
+        <form action="desafio07_externo.php" method="post">          
+            <div>
+                <label class="campos" for="txtUsuario">Usuario</label>
+                <input class="campos" type="text" name="txtUsuario" id="txtUsuario">
+            </div>
+
+            <div>
+                <label class="campos" for="txtSenha">Senha</label>
+                <input class="campos" type="password" name="txtSenha" id="txtSenha">
+            </div>
+
+            <div>
+                <label class="campos" for="txtEmail">Email</label>
+                <input class="campos" type="email" name="txtEmail" id="txtEmail">
+            </div>
+
+            <div>
+                <label class="campos" for="txtCidade">Cidade</label>
+                <input class="campos" type="text" name="txtCidade" id="txtCidade">
+            </div>
+
+            <div>
+                <label class="campos" for="txtEstado">Estado</label>
+                <input class="campos" type="text" name="txtEstado" id="txtEmail"><br>                
+            </div>
+            
+            <input type="reset">
+            <input type="submit" name="btnEnviar">
+        </form>
+        
+
+    </div>
+</body>
+</html>

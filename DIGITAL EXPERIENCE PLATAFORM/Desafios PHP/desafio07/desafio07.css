@@ -1,0 +1,17 @@
+ @import url('https://fonts.googleapis.com/css?family=Catamaran');
+.container{
+    max-width: 460px;
+    min-height: 400px;
+    border: 1px solid #000;
+    margin:0 auto;
+    padding:25px;
+    font-family: 'Catamaran', sans-serif;
+}        
+.texto-centro{
+    text-align: center;
+}
+
+.campos{
+    width: 100%;
+    display: block;
+}
