@@ -19,7 +19,7 @@
         print_r($lista);
         echo "</pre>";
 
-        $array = array("Leonardo", "Brito", "11 99317-8094");
+        $array = array("Joel", "Silva", "11 4444-2222");
 
         //split
         $implode = implode(", ", $array);
