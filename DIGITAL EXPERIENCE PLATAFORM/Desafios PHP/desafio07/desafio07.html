@@ -37,8 +37,15 @@
             <input type="reset">
             <input type="submit" name="btnEnviar">
         </form>
-        
-
     </div>
 </body>
+<script>
+
+      document.querySelector("#txtEmail").oninvalid = function(e) {
+        e.target.setCustomValidity("");
+        if (!e.target.validity.valid) {
+        e.target.setCustomValidity("Redefinindo mensagem de validação de email!");
+        } 
+    }
+</script>
 </html>

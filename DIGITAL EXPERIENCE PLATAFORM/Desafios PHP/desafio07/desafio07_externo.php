@@ -9,6 +9,8 @@
         $estado = $_POST['txtEstado'];
         $mensagem_validacao = "";
 
+        //criar variavel erro;
+
         if(strlen($usuario) < 5 || strlen($usuario) > 10){
             $mensagem_validacao = "Usuario deve ser maior que 5 e menor que 10 caracteres";
         }else if(strlen($senha) < 4){
