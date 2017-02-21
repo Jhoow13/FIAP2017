@@ -28,3 +28,8 @@ node_modules
 /build
 /captures
 .externalNativeBuild
+
+
+
+### Diversos ###
+.DS_STORE
