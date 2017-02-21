@@ -8,15 +8,22 @@
     
     <?php
     
-    // Potência
-    echo pow(2,5);
+    
+    $x = "fora"; 
+
+    function teste(){
+    global $x;   
+    $x = "dentro";      
+    }
+
+    echo $x;
     echo "<br>";
-    //Números sortidos
-    echo rand(1,100);
-    echo "<br>";
-    //Raiz quadrada
-    echo sqrt(100);
-        
+    
+    teste();
+    echo $x;
+    
+    
+    
     ?>
     
 </body>

@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <title>PHP</title>
+    <meta charset="UTF-8">
+    <title>PHP</title>
 </head>
+<body>
 
-  <body>
-    <?php
-        $lista = [342, 34, 56, 78, 897, 1, 22, 2017];
+    
+    
+    <?php 
 
-        echo "Número máximo do array '342, 34, 56, 78, 897, 1, 22, 2017' : " . max($lista) . "<br/><br/>";
+$lista = [343,34,323,23,54,232,453];
 
-        echo "Número mínimo do array '342, 34, 56, 78, 897, 1, 22, 2017' : " . min($lista) . "<br/><br/>";
+//Função que exibe o maior número do array:
+echo max($lista);
 
-        echo "Ordem crescente '342, 34, 56, 78, 897, 1, 22, 2017' : <br/>";
+echo "<br>";
+    
+//Função que exibe o menor número do array:
+echo min($lista);
 
-        echo "<pre>";
-        print_r($lista);
-        echo "</pre>";
+echo "<br>";
 
-        $array = array("Joel", "Silva", "11 4444-2222");
+// Ordem crescente:
+sort($lista);
 
-        //split
-        $implode = implode(", ", $array);
-
-        echo $implode;
+//Impressão do array inteiro:    
+print_r($lista);
+echo "<br>";
+        
+// Função para ligar os dados de um array    
+$array = array('Gustavo', 'Torrente', '11954000000');
+$implode = implode(", ", $array);
+echo $implode    
+    
     ?>
-  </body>
-
-
+    
+</body>
 </html>
