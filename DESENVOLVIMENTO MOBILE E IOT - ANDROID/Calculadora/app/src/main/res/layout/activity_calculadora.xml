@@ -5,93 +5,97 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorActivityBackgroundTop"
     tools:context="br.com.fiap.calculadora.CalculadoraActivity">
-    <LinearLayout
+
+
+    <EditText
+        android:id="@+id/tvNumero1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="80dp"
-        android:orientation="vertical"
-        android:gravity="center">
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
-            android:ems="10"
-            android:gravity="end"
-            android:digits="0123456789,"
-            android:layout_marginTop="36dp"
-            android:id="@+id/tvNumero1"
-            android:hint="0" />
+        android:digits="0123456789,"
+        android:ems="10"
+        android:gravity="end"
+        android:background="@android:color/transparent"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:textSize="30sp"/>
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
-            android:ems="10"
-            android:gravity="end"
-            android:digits="0123456789,"
-            android:id="@+id/tvNumero2"
-            android:hint="0" />
+    <EditText
+        android:id="@+id/tvNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789,"
+        android:ems="10"
+        android:gravity="end"
+        android:background="@android:color/transparent"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <Button
-            android:text="@string/somar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:minHeight="50dp"
-            android:minWidth="50dp"
             android:id="@+id/btnSoma"
-            android:onClick="defineOperacao"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/somar"
+            android:textSize="25sp"
+            style="@style/AppTheme.ButtonPrimaryDark"/>
 
         <Button
+            android:id="@+id/btnSubtracao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/subtrair"
+            android:textSize="25sp"
+            style="@style/AppTheme.ButtonPrimaryDark"/>
+
+        <Button
+            android:id="@+id/btnMultiplicacao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="50dp"
-            android:minWidth="50dp"
-            android:id="@+id/btnSubtracao"/>
-
-        <Button
             android:text="@string/multiplicar"
+            android:textSize="25sp"
+            style="@style/AppTheme.ButtonPrimaryDark"/>
+
+        <Button
+            android:id="@+id/btnDivisao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="50dp"
-            android:minWidth="50dp"
-            android:id="@+id/btnMultiplicacao"/>
-
-        <Button
             android:text="@string/dividir"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:minHeight="50dp"
-            android:minWidth="50dp"
-            android:id="@+id/btnDivisao"/>
+            android:textSize="25sp"
+            style="@style/AppTheme.ButtonPrimaryDark"/>
 
         <Button
-            android:text="@string/limpar"
+            android:id="@+id/btnResultado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="50dp"
-            android:minWidth="50dp"
-            android:id="@+id/btnResultado"
-            android:onClick="limpar"/>
+            android:onClick="limpar"
+            android:text="@string/limpar"
+            android:textSize="25sp"
+            style="@style/AppTheme.ButtonAccent"/>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="80dp"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
         <TextView
-            android:text="0"
+            android:id="@+id/tvResultado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="50dp"
-            android:id="@+id/tvResultado"
-            android:gravity="center"/>
+            android:hint="0"
+            android:layout_marginTop="40sp"
+            android:gravity="center"
+            android:textSize="30sp"/>
     </LinearLayout>
 </LinearLayout>
