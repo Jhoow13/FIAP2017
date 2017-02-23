@@ -4,5 +4,8 @@
     <string name="subtrair">-</string>
     <string name="multiplicar">*</string>
     <string name="dividir">/</string>
-    <string name="limpar">Limpar</string>
+    <string name="limpar">CE</string>
+    <string name="msg_validacao">Favor, preencher os dois campos para realizar a operação</string>
+    <string name="parametro_invalido">Favor, Verifique os dados digitados</string>
+
 </resources>

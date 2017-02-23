@@ -1,95 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_calculadora"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="br.com.fiap.calculadora.CalculadoraActivity">
-
-    <EditText
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:gravity="end"
-        android:digits="0123456789,"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
-        android:id="@+id/tvNumero1"
-        android:hint="0" />
+        android:minHeight="80dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:gravity="end"
+            android:digits="0123456789,"
+            android:layout_marginTop="36dp"
+            android:id="@+id/tvNumero1"
+            android:hint="0" />
 
-    <EditText
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:gravity="end"
+            android:digits="0123456789,"
+            android:id="@+id/tvNumero2"
+            android:hint="0" />
+
+        <Button
+            android:text="@string/somar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:id="@+id/btnSoma"
+            android:onClick="defineOperacao"/>
+
+        <Button
+            android:text="@string/subtrair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:id="@+id/btnSubtracao"/>
+
+        <Button
+            android:text="@string/multiplicar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:id="@+id/btnMultiplicacao"/>
+
+        <Button
+            android:text="@string/dividir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:id="@+id/btnDivisao"/>
+
+        <Button
+            android:text="@string/limpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:id="@+id/btnResultado"
+            android:onClick="limpar"/>
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:gravity="end"
-        android:digits="0123456789,"
-        android:layout_marginTop="43dp"
-        android:id="@+id/tvNumero2"
-        android:layout_below="@+id/tvNumero1"
-        android:layout_alignStart="@+id/tvNumero1"
-        android:hint="0" />
-
-    <Button
-        android:text="@string/somar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnSoma"
-        android:layout_marginTop="41dp"
-        android:layout_below="@+id/tvNumero2"
-        android:layout_alignParentStart="true"
-        android:onClick="defineOperacao"/>
-
-    <Button
-        android:text="@string/subtrair"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnSubtracao"
-        android:layout_alignBaseline="@+id/btnSoma"
-        android:layout_alignBottom="@+id/btnSoma"
-        android:layout_toEndOf="@+id/btnSoma" />
-
-    <Button
-        android:text="@string/multiplicar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnMultiplicacao"
-        android:layout_alignBaseline="@+id/btnSubtracao"
-        android:layout_alignBottom="@+id/btnSubtracao"
-        android:layout_toEndOf="@+id/btnSubtracao" />
-
-    <Button
-        android:text="@string/dividir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnDivisao"
-        android:layout_alignBaseline="@+id/btnMultiplicacao"
-        android:layout_alignBottom="@+id/btnMultiplicacao"
-        android:layout_alignParentEnd="true" />
-
-    <Button
-        android:text="@string/limpar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnMultiplicacao"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="53dp"
-        android:id="@+id/btnResultado"
-        android:onClick="limpar"/>
-
-    <TextView
-        android:text="0"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
-        android:id="@+id/tvResultado"
-        android:gravity="center"/>
-</RelativeLayout>
+        android:minHeight="80dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/tvResultado"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
