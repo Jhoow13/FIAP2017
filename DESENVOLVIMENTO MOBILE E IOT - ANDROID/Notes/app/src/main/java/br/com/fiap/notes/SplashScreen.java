@@ -19,7 +19,7 @@ public class SplashScreen extends AppCompatActivity {
             public void run() {
                 chamarLogin();
             }
-        },800);
+        },1200);
     }
 
     private void chamarLogin(){
