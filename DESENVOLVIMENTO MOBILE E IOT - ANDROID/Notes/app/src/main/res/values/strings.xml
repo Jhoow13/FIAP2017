@@ -6,4 +6,5 @@
     <string name="erro_login">Por favor digite os dados Corretamente</string>
     <string name="ola_mundo">Olá Mundo</string>
     <string name="voltar">Voltar</string>
+    <string name="gravar">Gravar</string>
 </resources>
