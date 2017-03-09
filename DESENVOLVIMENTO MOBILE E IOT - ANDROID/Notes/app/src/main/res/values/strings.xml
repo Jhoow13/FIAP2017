@@ -2,4 +2,8 @@
     <string name="app_name">Notes</string>
     <string name="logar">Logar</string>
     <string name="senha">Senha</string>
+    <string name="email">Email</string>
+    <string name="erro_login">Por favor digite os dados Corretamente</string>
+    <string name="ola_mundo">Olá Mundo</string>
+    <string name="voltar">Voltar</string>
 </resources>
