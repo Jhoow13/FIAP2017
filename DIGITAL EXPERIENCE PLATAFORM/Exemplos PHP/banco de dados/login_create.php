@@ -15,7 +15,7 @@
         //Query para inserir os dados de acordo com os nomes das variáveis.
         $query = "INSERT INTO usuarios(username,password) VALUES ('$username', '$password')";
         
-        //Função para inserir os dados em nosso banco.
+        //Função para executar uma QUERY
         $resultado = mysqli_query($connection, $query);
        
         //Validação
