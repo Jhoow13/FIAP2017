@@ -1,0 +1,84 @@
+body{
+    /*background-color: #000; */
+    color:#fff;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
+background: #4c4c4c; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+}
+
+.painel{margin-top: 80px;}
+table{color: #000;}
+
+.corTitColunas_verde{background-color: #72A33E;}
+.corTitColunas_amarelo{background-color: #FFC90E;}
+.corTitColunas_vermelho{background-color: #ED1C24;}
+.corTitColunas_roxo{background-color: #6D00D9;}
+.corTitColunas_cinza{background-color: #333;}
+
+
+
+
+.corResultado{background-color: #999;}
+.corResultadoT{background-color: #ccc;}
+.corTitulo{background-color: #ccc;}
+
+.nomeTabela{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background-color: #595959;
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+
+.result {
+    border: 1px solid #595959;
+    text-align: center;
+    height: 87px;
+    line-height: 90px;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.vermelho{color: #ED1C24;}
+.amarelo{color: #FFC90E;}
+.verde{color: #72A33E;}
+.branco{color:#fff;}
+
+
+.boxTitulo {
+    background-color: #595959;
+    margin-top: 9px;
+    height: 49px;
+    line-height: 50px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.boxValor {
+    background-color: #333333;
+    margin-top: 9px;
+    height: 49px;
+    line-height: 50px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.ajuste{
+	    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+.table-bordered>tbody>tr>td, .table-bordered>thead>tr>th, .table-bordered {border: 1px solid #595959;}
