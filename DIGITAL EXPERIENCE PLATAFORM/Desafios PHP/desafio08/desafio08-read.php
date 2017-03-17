@@ -1,5 +1,9 @@
 <?php
-    $connection = mysqli_connect('localhost', 'root', 'fiap', 'desafio08');
+    $connection = mysqli_connect('localhost', 'root', 'fiap', 'loginapp');
+
+    $query = "SELECT * FROM usuarios";
+
+    $resultado = mysqli_query($connection, $query);
     
 ?>
 

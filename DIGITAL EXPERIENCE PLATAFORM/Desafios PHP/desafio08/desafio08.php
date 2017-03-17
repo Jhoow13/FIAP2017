@@ -6,7 +6,7 @@
         $email = $_POST['txtEmail'];
         
         //Estabelecendo a conexão
-        $connection = mysqli_connect('localhost', 'root', 'fiap', 'desafio08');
+        $connection = mysqli_connect('localhost', 'root', 'fiap', 'loginapp');
         if(!$connection){
            die("Vish.. Deu ruim");
         } 

@@ -1,3 +1,7 @@
+CREATE DATABASE loginapp;
+
+USE loginapp;
+
 CREATE TABLE `usuarios` (
   `id` int(11) NOT NULL,
   `username` varchar(32) NOT NULL,
