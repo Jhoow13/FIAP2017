@@ -1,9 +1,8 @@
+<?php include "db.php"; ?>
+<?php include "functions.php";?>
+
 <?php
-    include "db.php";
-
-    $query = "SELECT * FROM usuarios";
-
-    $resultado = mysqli_query($connection, $query);
+    atualizaDados();
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +16,7 @@
 <div class="container">
     
     <div class="col-sm-6">
-        <form action="login_create.php" method="post">
+        <form action="login_update.php" method="post">
             
             <div class="form-group">
             <label for="username">Usuário</label>
@@ -32,15 +31,12 @@
             <div class="form-group">
                 <select name="id">
                     <?php
-                        while($row = mysqli_fetch_assoc($resultado)){
-                            $id = $row['id'];
-                            echo "<option value='$id'>$id</option>";
-                        }
+                      mostraDados();
                     ?>
                 </select>
             </div>
             
-            <input class="btn btn-primary" type="submit" name="enviar" value="Enviar">
+            <input class="btn btn-primary" type="submit" name="update" value="Atualizar">
             
         </form>
     </div>
