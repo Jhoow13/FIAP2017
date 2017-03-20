@@ -24,5 +24,6 @@
             </div>
             <input class="btn btn-primary" type="submit" name="update" value="Atualizar">
         </form>
+        <?php include "buttons.php"; ?>
     </div>
 <?php include "footer.php" ?>

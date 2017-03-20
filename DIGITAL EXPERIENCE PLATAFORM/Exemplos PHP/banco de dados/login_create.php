@@ -16,6 +16,7 @@
                 <input type="password" name="password" class="form-control">
             </div>            
             <input class="btn btn-primary" type="submit" name="enviar" value="Enviar">
+            <?php include "buttons.php"; ?>             
         </form>
     </div>
 <?php include "footer.php" ?>
