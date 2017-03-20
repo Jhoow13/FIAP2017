@@ -1,25 +1,15 @@
 <?php include "db.php"; ?>
 <?php include "functions.php";?>
+<?php include "header.php" ?>
+<?php deletaDados();?>
 
-<?php
-    deletaDados();
-?>
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-</head>
-<body>
-<div class="container">
-    
+<div class="container">    
     <div class="col-sm-6">
         <form action="login_delete.php" method="post">
-            
+            <h1 class="text-center">DELETE</h1>
             <div class="form-group">
-            <label for="username">Usuário</label>
+            <label for="username">Usuário</label>            
             <input type="text" name="username" class="form-control">
             </div>
             
@@ -40,11 +30,4 @@
             
         </form>
     </div>
-
-
-
-
-
-</div>
-</body>
-</html>
+<?php include "footer.php" ?>
