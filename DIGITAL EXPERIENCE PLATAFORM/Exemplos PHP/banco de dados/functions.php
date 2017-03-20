@@ -32,4 +32,21 @@
             }
         }
     }
+
+    function deletaDados(){
+        global $connection;
+         if(isset($_POST['delete'])){            
+            $id = $_POST['id'];
+
+            $query = "DELETE FROM usuarios WHERE id = $id";
+            
+            $resultado = mysqli_query($connection, $query);
+
+            if(!$resultado){
+                die("Falha ao deletar");
+            }else{
+                echo "Dados removidos com sucesso";
+            }
+        }
+    }
 ?>
