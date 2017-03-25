@@ -1,6 +1,6 @@
 <?php include "db.php"; ?>
 <?php include "desafio09Functions.php";?>
-<?php criaDados(); ?>
+<?php criaPokemon(); ?>
 <?php include "header.php" ?>
 
 <div class="container">    

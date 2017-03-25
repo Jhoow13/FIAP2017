@@ -1,7 +1,8 @@
 <?php
     include "db.php";
+    //pokedream.com/pokedex
 
-    function criaDados(){
+    function criaPokemon(){
         if(isset($_POST['enviar'])){
             $nomePokemon = $_POST['txtPokemon'];
             $tipo1Pokemon = $_POST['txtTipo_1'];  
@@ -81,35 +82,36 @@
         }
     }
 
-    function mostraDadosRead(){
+    function dadosPokemonFogo(){
         global $connection;
 
-        $query = "SELECT * FROM usuarios";
+        $query = "SELECT * FROM pokemon WHERE tipo_1 = 'Fogo' or tipo_2 = 'Fogo'";
         $resultado = mysqli_query($connection, $query);
 
         echo "<table class='table table-condensed'>";
         echo "<thead>";
         echo "<tr>";
-        echo "<th>Firstname</th>";
-        echo "<th>Lastname</th>";
-        echo "<th>Email</th>";
+        echo "<th>Codigo</th>";
+        echo "<th>Nome</th>";
+        echo "<th>Tipo 1</th>";
+        echo "<th>Tipo 2</th>";
+        echo "<th>HP</th>";
         while($row = mysqli_fetch_assoc($resultado)){
-            $id = $row['id'];
-            $username = $row['username'];
-            $password = $row['password'];
-
-            // echo "<h1>$id</h1>";
-            // echo "<h1>$username</h1>";
-            // echo "<h1>$password</h1>";
-
+            $codigo = $row['id'];
+            $nome = $row['nome'];
+            $tipo1 = $row['tipo_1'];
+            $tipo2 = $row['tipo_2'];
+            $hp = $row['hp'];
             
             echo "</tr>";
             echo "</thead>";
             echo "<tbody>";
             echo "<tr>";
-            echo "<td>$id</td>";
-            echo "<td>$username</td>";
-            echo "<td>$password</td>";
+            echo "<td>$codigo</td>";
+            echo "<td>$nome</td>";
+            echo "<td>$tipo1</td>";
+            echo "<td>$tipo2</td>";
+            echo "<td>$hp</td>";
             echo "</tr>";            
         }
         echo "</tbody>";
