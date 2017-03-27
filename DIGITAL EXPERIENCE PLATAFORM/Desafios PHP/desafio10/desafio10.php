@@ -21,7 +21,23 @@ Faça a validação dos campos de modo que usuário tenha que preencher todos os
       <div class="col-sm-6">
 
         <h1 class="text-center">DESAFIO 10 - NOTAS</h1>
+        <form action="desafio10.php" method="GET">
+          <div class="form-group">
+            <label for="">Nome</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="">NAC 1</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="">NAC 2</label>
+            <input type="text" class="form-control">
+          </div>
 
+          <input type="submit" value="Calcular Media" class="form-control btn btn-primary">
+
+        </form>
 
     </div>
   </div>
