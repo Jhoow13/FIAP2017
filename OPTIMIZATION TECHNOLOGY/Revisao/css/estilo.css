@@ -32,7 +32,9 @@ hr{
 .icones{
     background: url('../img/imagens.png');
 }
-
+.container-icones{
+    margin: 25px 0 0 -50px;
+}
 .icones-cores{
     background-color: #fff;
     color: #fff;
