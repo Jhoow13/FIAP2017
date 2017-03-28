@@ -2,3 +2,70 @@
     width: 500px;
     height: 292px;
 }
+
+hr{
+    border-top-color: #ccc;
+}
+
+.footer{
+    height: 100px;
+    background-color: #414141;
+    color:#fff;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+}
+
+.red{
+    background-color: #d44343;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.other-red{
+    background-color: #e58e8e;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.icones{
+    background: url('../img/imagens.png');
+}
+
+.icones-cores{
+    background-color: #fff;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.quem-somos{
+    background-position: 239px 130px
+}
+
+.nossa-equipe{
+    background-position: 175px 130px;
+}
+
+.sistema-tola{
+    background-position: 241px 188px;
+}
+
+.processos-otimizados{
+    background-position: 297px 125px;
+}
+
+.estatis-acesso{
+    background-position: 295px 70px;
+}
+
+.quadro-horas{
+    background-position: 173px 190px;
+}
+
+.procedimentos{
+    background-position: 247px 69px;
+}
