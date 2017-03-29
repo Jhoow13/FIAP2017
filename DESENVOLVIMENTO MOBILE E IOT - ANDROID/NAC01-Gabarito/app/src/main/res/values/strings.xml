@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NAC01 - Calcula IMC</string>
+    <string name="peso">Peso:</string>
+    <string name="altura">Altura:</string>
+    <string name="calcular_imc">CALCULAR IMC</string>
+    <string name="resultado">Resultado</string>
+    <string name="validacao_zero">Didite valores superiores a zero.</string>
+    <string name="magreza_grave">Magreza Grave</string>
+    <string name="magreza_moderada">Magreza Moderada</string>
+    <string name="magreza_leve">Magreza Leve</string>
+    <string name="saudavel">Saudável</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="obesidade_grau1">Obesidade grau 1</string>
+    <string name="obesidade_grau2">Obesidade grau 2 (severa)</string>
+    <string name="obesidade_grau3">Obesidade grau 3 (mórbida)</string>
+    <string name="validacao_vazio">Preencha os valores corretamente</string>
+</resources>
