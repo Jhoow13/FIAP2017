@@ -3,11 +3,11 @@ package br.com.fiap.notes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class CadastrarLoginActivity extends AppCompatActivity {
+public class CadastraLoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadastrar_login);
+        setContentView(R.layout.activity_cadastra_login);
     }
 }

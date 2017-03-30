@@ -7,4 +7,9 @@
     <string name="ola_mundo">Olá Mundo</string>
     <string name="voltar">Voltar</string>
     <string name="gravar">Gravar</string>
+    <string name="nome">Nome</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="feminino">Feminino</string>
+    <string name="masculino">Masculino</string>
+    <string name="data_de_nascimento">Data de Nascimento</string>
 </resources>
