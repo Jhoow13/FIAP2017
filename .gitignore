@@ -29,6 +29,24 @@ ANDROID/**/build
 ANDROID/**/captures
 ANDROID/**/.externalNativeBuild
 
+# User-specific configurations
+ANDROID/**/.idea/libraries/
+ANDROID/**/.idea/.name
+ANDROID/**/.idea/compiler.xml
+ANDROID/**/.idea/copyright/profiles_settings.xml
+ANDROID/**/.idea/encodings.xml
+ANDROID/**/.idea/misc.xml
+ANDROID/**/.idea/modules.xml
+ANDROID/**/.idea/scopes/scope_settings.xml
+ANDROID/**/.idea/vcs.xml
+ANDROID/**/.idea/jsLibraryMappings.xml
+ANDROID/**/.idea/datasources.xml
+ANDROID/**/.idea/dataSources.ids
+ANDROID/**/.idea/sqlDataSources.xml
+ANDROID/**/.idea/dynamic.xml
+ANDROID/**/.idea/uiDesigner.xml
+
+
 
 
 ### Diversos ###
