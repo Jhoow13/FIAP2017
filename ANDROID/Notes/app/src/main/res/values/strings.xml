@@ -12,4 +12,13 @@
     <string name="feminino">Feminino</string>
     <string name="masculino">Masculino</string>
     <string name="data_de_nascimento">Data de Nascimento</string>
+    <string name="gravar_dados">Gravar dados</string>
+    <string name="excluir_dados">Excluir dados</string>
+    <string name="carregar_dados">Carregar Dados</string>
+    <string name="verificar_dados">Verificar Dados</string>
+    <string name="gravar_arquivo">Gravar Arquivo</string>
+    <string name="ler_arquivo">Ler Arquivo</string>
+    <string name="excluir_arquivo">Excluir Arquivo</string>
+    <string name="fechar_e_retornar">Fechar e retornar</string>
+    <string name="header_dados_conta">FIAP Notas - Dados da conta</string>
 </resources>
