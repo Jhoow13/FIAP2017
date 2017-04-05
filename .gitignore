@@ -19,15 +19,15 @@ node_modules
 
 ### android ###
 
-**/*.iml
-**/.gradle
-**/local.properties
-**/.idea/workspace.xml
-**/.idea/libraries
-**/.DS_Store
-**/build
-**/captures
-**/.externalNativeBuild
+ANDROID/**/*.iml
+ANDROID/**/.gradle
+ANDROID/**/local.properties
+ANDROID/**/.idea/workspace.xml
+ANDROID/**/.idea/libraries
+ANDROID/**/.DS_Store
+ANDROID/**/build
+ANDROID/**/captures
+ANDROID/**/.externalNativeBuild
 
 
 
