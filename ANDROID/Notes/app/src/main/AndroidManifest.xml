@@ -27,7 +27,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CadastraLoginActivity"></activity>
+        <activity android:name=".CadastraLoginActivity"
+            android:label="@string/header_dados_conta">
+
+        </activity>
     </application>
 
 </manifest>
