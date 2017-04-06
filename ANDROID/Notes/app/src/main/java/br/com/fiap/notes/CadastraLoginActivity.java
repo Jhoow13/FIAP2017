@@ -161,6 +161,15 @@ public class CadastraLoginActivity extends AppCompatActivity {
         }
     }
 
+    public void limparDados(View v){
+        etNome.setText("");
+        etSobrenome.setText("");
+        etNascimento.setText("");
+        etEmail.setText("");
+        etSenha.setText("");
+        rdgSexo.clearCheck();
+    }
+
     public void voltar(View v){
         finish();
     }

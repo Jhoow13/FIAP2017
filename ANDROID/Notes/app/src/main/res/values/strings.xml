@@ -31,4 +31,5 @@
     <string name="ler_arquivo_nok">Não foi possivel ler o arquivo</string>
     <string name="excluir_arquivo_nok">Não foi possivel excluir o arquivo</string>
     <string name="excluir_arquivo_ok">Arquivo excluido com sucesso</string>
+    <string name="login_nok">Usuario ou senha invalidos</string>
 </resources>

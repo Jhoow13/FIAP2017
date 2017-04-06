@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import br.com.fiap.notes.util.ArquivoDB2;
+
 public class LoginActivity extends AppCompatActivity {
 
     EditText edtEmail, edtSenha;
@@ -24,8 +26,18 @@ public class LoginActivity extends AppCompatActivity {
 
     public void chamar(View v){
         if(validarLogin(edtEmail.getText().toString(), edtSenha.getText().toString())) {
-            Intent toNotesActivity = new Intent(this, NotesActivity.class);
-            startActivity(toNotesActivity);
+
+            ArquivoDB2 arquivoDB = new ArquivoDB2();
+
+            String usuario = arquivoDB.retornarValor(this, "dados", "usuario");
+            String senha = arquivoDB.retornarValor(this, "dados", "senha");
+
+            if(usuario.equals(edtEmail.getText().toString()) && senha.equals(edtSenha.getText().toString())){
+                Intent toNotesActivity = new Intent(this, NotesActivity.class);
+                startActivity(toNotesActivity);
+            }else{
+                Toast.makeText(this, R.string.login_nok, Toast.LENGTH_SHORT).show();
+            }
         }else{
             Toast.makeText(this, R.string.erro_login, Toast.LENGTH_SHORT).show();
         }
