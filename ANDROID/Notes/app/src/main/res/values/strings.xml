@@ -21,4 +21,6 @@
     <string name="excluir_arquivo">Excluir Arquivo</string>
     <string name="fechar_e_retornar">Fechar e retornar</string>
     <string name="header_dados_conta">FIAP Notas - Dados da conta</string>
+    <string name="dados_conta_nok">Preencha os dados da conta corretamente</string>
+    <string name="cadastro_ok">Cadastro efetuado com sucesso</string>
 </resources>
