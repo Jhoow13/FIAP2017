@@ -31,6 +31,11 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
+    public void gravar(View v){
+        Intent toCadastrarLogin = new Intent(this, CadastraLoginActivity.class);
+        startActivity(toCadastrarLogin);
+    }
+
     private boolean validarLogin(String email, String senha){
 
         return Patterns.EMAIL_ADDRESS.matcher(email).matches()
