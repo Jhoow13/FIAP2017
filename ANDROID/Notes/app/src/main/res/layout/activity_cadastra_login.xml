@@ -81,7 +81,8 @@
             android:id="@+id/btnGravarChaves"
             android:text="@string/gravar_dados"
             android:textStyle="bold"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:onClick="gravarChaves"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -95,7 +96,8 @@
                 android:text="@string/excluir_dados"
                 android:textStyle="bold"
                 android:layout_weight="1"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:onClick="excluirChaves"/>
             <Button
                 style="@style/AppTheme.ButtonPrimaryDark"
                 android:layout_width="match_parent"
@@ -104,7 +106,8 @@
                 android:text="@string/carregar_dados"
                 android:textStyle="bold"
                 android:layout_weight="1"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:onClick="carregarChaves"/>
             <Button
                 style="@style/AppTheme.ButtonPrimaryDark"
                 android:layout_width="match_parent"
@@ -113,7 +116,8 @@
                 android:text="@string/verificar_dados"
                 android:textStyle="bold"
                 android:layout_weight="1"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:onClick="verificarChaves"/>
         </LinearLayout>
 
     <LinearLayout
@@ -128,7 +132,8 @@
             android:text="@string/gravar_arquivo"
             android:textStyle="bold"
             android:layout_weight="1"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:onClick="gravarArquivo"/>
         <Button
             style="@style/AppTheme.ButtonPrimaryDark"
             android:layout_width="match_parent"
@@ -137,7 +142,8 @@
             android:text="@string/ler_arquivo"
             android:textStyle="bold"
             android:layout_weight="1"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:onClick="lerArquivo"/>
         <Button
             style="@style/AppTheme.ButtonPrimaryDark"
             android:layout_width="match_parent"
@@ -146,7 +152,8 @@
             android:text="@string/excluir_arquivo"
             android:textStyle="bold"
             android:layout_weight="1"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:onClick="excluirArquivo"/>
     </LinearLayout>
 
     <Button
@@ -156,7 +163,8 @@
         android:id="@+id/btnRetornar"
         android:text="@string/fechar_e_retornar"
         android:textStyle="bold"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:onClick="voltar"/>
 
 </LinearLayout>
 </ScrollView>
