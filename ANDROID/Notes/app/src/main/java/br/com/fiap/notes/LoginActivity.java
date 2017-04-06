@@ -48,6 +48,13 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(toCadastrarLogin);
     }
 
+    @Override
+    //Limpa a senha no estado onResume da activity
+    protected void onResume() {
+        super.onResume();
+        edtSenha.setText("");
+    }
+
     private boolean validarLogin(String email, String senha){
 
         return Patterns.EMAIL_ADDRESS.matcher(email).matches()
