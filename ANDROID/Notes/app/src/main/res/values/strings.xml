@@ -23,4 +23,12 @@
     <string name="header_dados_conta">FIAP Notas - Dados da conta</string>
     <string name="dados_conta_nok">Preencha os dados da conta corretamente</string>
     <string name="cadastro_ok">Cadastro efetuado com sucesso</string>
+    <string name="exclusao_ok">Dados Excluidos com êxito</string>
+    <string name="dados_login_ok">Dados de login existentes</string>
+    <string name="dados_login_nok">Dados de login inexistentes</string>
+    <string name="gravar_arquivo_nok">Não foi possivel gravar o arquivo</string>
+    <string name="gravar_arquivo_ok">Arquivo gravado com sucesso</string>
+    <string name="ler_arquivo_nok">Não foi possivel ler o arquivo</string>
+    <string name="excluir_arquivo_nok">Não foi possivel excluir o arquivo</string>
+    <string name="excluir_arquivo_ok">Arquivo excluido com sucesso</string>
 </resources>
