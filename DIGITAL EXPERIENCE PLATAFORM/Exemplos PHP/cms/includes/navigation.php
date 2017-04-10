@@ -20,6 +20,7 @@
                 itensCabecalho();
 
             ?>
+            <li><a href="admin">Admin</li>
                 <!--<li>
                     <a href="#">About</a>
                 </li>
