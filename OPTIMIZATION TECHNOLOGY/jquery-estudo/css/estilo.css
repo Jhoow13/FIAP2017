@@ -1,6 +1,8 @@
 .box{width: 100%;height: 300px;margin-bottom: 50px;display: block;border: 1px dashed #333;padding:20px;}
 .box p{font-size: 50px; text-align: center; margin-top: 50px;}
-.alvo, .alvoAnimate{border: 1px solid #333;width: auto; height: 100%; margin: auto;background-color: #c4ddc5;}
+.alvo01, .alvo02, .alvo03, .alvo04, .alvo05, .alvo06, .alvo07, .alvo08, .alvoAnimate{
+  border: 1px solid #333;width: auto; height: 100%; margin: auto;background-color: #c4ddc5;
+  }
 
 
 .ajusteTexto{
