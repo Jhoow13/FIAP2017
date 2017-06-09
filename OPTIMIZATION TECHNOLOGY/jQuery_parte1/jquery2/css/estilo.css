@@ -1,0 +1,19 @@
+*{margin:0; padding:0px;}
+body{font-family: verdana; font-size:30px;}
+nav{
+  background-color: #282C34;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+ul{text-align: center; height: 50px; }
+ul li{display: inline;
+  font-family: verdana;
+  margin-right: 50px;
+  color:#fff;
+  line-height: 50px;
+  font-style: italic;
+}
+
+main{margin: 70px 50px 0px 50px;}
+p{margin-bottom:30px;}
